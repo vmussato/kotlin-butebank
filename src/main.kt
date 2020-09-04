@@ -1,7 +1,7 @@
 fun main() {
     println("Hello World")
 
-    for (i in 1..5) {
+    for (i in 5 downTo  1) {
 
         val titular = "Vinícius $i"
         val numeroConta: Int = 1000 + i
